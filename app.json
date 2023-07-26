@@ -32,6 +32,11 @@
     "plugins": [
       "expo-router"
     ],
+    "extra": {
+      "eas": {
+        "projectId": "my-project-id"
+      }
+    },
     "experiments": {
       "tsconfigPaths": true,
       "typedRoutes": true
